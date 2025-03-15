@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router';
 
 <template>
 <div class="w-full my-2 flex sm:flex-col items-center xl:h-[800px] justify-center">
-    <div class="flex flex-col items-center text-m md:text-2xl md:flex-row md:mx-10 my-5">
+    <div class="flex flex-col items-center text-m md:text-2xl md:flex-row md:mx-10 my-5 animate-fade-up animate-once animate-duration-[900ms] animate-delay-200 animate-ease-out">
         <div class="mx-5 text-darkBrown">SERVICES PROVIDED AT</div>
         <div class="flex bg-black w-auto justify-center p-1 rounded-2xl  ">
             <p class="text-red m-1">CUT </p>

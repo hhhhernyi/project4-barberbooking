@@ -5,9 +5,9 @@ import { RouterLink } from 'vue-router';
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 h-auto md:h-[800px]">
     <div
-      class="bg-[url('/images/heroBG.png')] bg-cover bg-center rounded-b-[15%] md:rounded-r-[15%] h-[400px] md:h-full"
+      class="bg-[url('/images/heroBG.png')] bg-cover bg-center sm:rounded-b-[15%] md:rounded-b-none md:rounded-br-[15%] h-[400px] md:h-full animate-fade-right animate-once animate-duration-[900ms] animate-delay-200 animate-ease-out"
     ></div>
-    <div class="flex flex-col justify-center items-center p-4">
+    <div class="flex flex-col justify-center items-center p-4 animate-fade-left animate-once animate-duration-[700ms] animate-delay-100 animate-ease-in">
       <div class="text-darkBrown text-center">
         <h1 class="text-3xl md:text-6xl font-montserrat">20 YEARS</h1>
         <h2 class="text-lg md:text-4xl font-montserrat">IN PROFESSIONAL HAIR SERVICES</h2>
